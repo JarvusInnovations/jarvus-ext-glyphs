@@ -11,6 +11,8 @@ Ext.define('Jarvus.ext.glyphs.override.grid.column.Action', {
             + (itemsCount - 1) * 4 // space between
             + 10 // cell padding
         );
+
+        me.callParent();
     },
 
     // overridden to implement
